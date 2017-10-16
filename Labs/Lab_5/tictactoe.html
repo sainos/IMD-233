@@ -5,33 +5,47 @@
 </head>
 
 <body>
-  <canvas id="myCanvas" width="600" height="600" margins="20"></canvas>
+  <canvas id="myCanvas" width="600" height="600"></canvas>
   <script>
     var canvas = document.getElementById("myCanvas");
     var context = canvas.getContext("2d");
     var imageObj = new Image();
+    var x=100, y=100, radius=90, angle=2*Math.PI;
 
+    // First circle
+    context.arc(100, 100, radius, 0, angle);
+    context.strokeStyle= "blue";
+    context.stroke();
+
+    // Second Circle
+    context.moveTo(590,500);
+    context.arc(500, 500, radius, 0, angle);
+    context.stroke();
+
+    // Vertical Line
     context.moveTo(200,0);
     context.lineTo(200,600);
     context.lineWidth = 5;
     context.stroke();
     context.moveTo(400,0);
     context.lineTo(400,600);
-    context.lineWidth = 5;
     context.stroke();
+
+    // Horizontal Line
     context.moveTo(0,200);
     context.lineTo(600,200);
-    context.lineWidth = 5;
     context.stroke();
     context.moveTo(0,400);
     context.lineTo(600,400);
-    context.lineWidth = 5;
     context.stroke();
 
-    imageObj.onload = function()
-    {
-      context.drawImage(imageObj, 0, 0, 600, 600)
-    };
+    // X in the middle
+    context.moveTo(210, 210);
+    context.lineTo(390,390);
+    context.stroke();
+    context.moveTo(390, 210);
+    context.lineTo(210,390);
+    context.stroke();
 
   </script>
 </body>
