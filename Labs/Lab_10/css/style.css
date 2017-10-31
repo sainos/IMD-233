@@ -1,0 +1,39 @@
+nav.bg-light{
+    background-color: #563d7c!important;
+}
+
+
+.solid-border {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.dashed-bottom-border{
+  border-bottom-color: black;
+  border-bottom-style: dashed;
+  border-bottom-width: 2px;
+}
+
+.dashed-top-border{
+  border-top-color: black;
+  border-top-style: dashed;
+  border-top-width: 2px;
+}
+
+.dashed-left-border{
+  border-left-color: black;
+  border-left-style: dashed;
+  border-left-width: 2px;
+}
+
+.dashed-right-border{
+  border-right-color: black;
+  border-right-style: dashed;
+  border-right-width: 2px;
+}
+
+.column-resize{
+    height: 250px;
+    width: 250px;
+}
