@@ -37,3 +37,8 @@ nav.bg-light{
     height: 250px;
     width: 250px;
 }
+
+hr{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+  height: 10px;
+}
