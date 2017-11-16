@@ -7,7 +7,6 @@ $(document).ready( function (){
     count++;
   }
 
-  updateCounter();
   setInterval(updateCounter, 3000);
 
 });
