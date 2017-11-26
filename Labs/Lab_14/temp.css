@@ -1,0 +1,17 @@
+table, th, td, tr{
+  border: 2px solid black;
+}
+
+table{
+  margin-top: 10%;
+}
+
+th{
+  height: 50px;
+  font-size: 25px;
+}
+
+td{
+  height: 30px;
+  font-size: 18px;
+}
