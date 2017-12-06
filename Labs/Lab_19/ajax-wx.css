@@ -1,0 +1,42 @@
+body {
+  background: black;
+  margin: 0 auto;  
+}
+
+.container {
+  background: black;
+  border: 10px solid #4b2e83;
+  width: 480px;
+  margin: 20px auto;
+}
+
+.panel {
+  margin: 10px auto;
+  width: 400px;
+}
+#uw {
+  background-color: #4b2e83;
+  color: white;
+}
+
+#uw-gold {
+  background-color: #b7a57a;
+  color: #4b2e83;
+}
+button {
+  width: 100%;
+
+}
+
+.control {
+  margin: 5px auto;
+/*   border: 2px solid red; */
+}
+
+h3 {
+  text-align: center;
+}
+
+#reset {
+  border: 1px solid red;
+}
