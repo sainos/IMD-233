@@ -7,6 +7,7 @@ $(function() {
       $(this).remove();
     });
     $.ajax({
+      // type: 'GET',
       url: "http://api.wunderground.com/api/a2fb20dd598019bc/geolookup/conditions/q/WA/Bothell.json",
       dataType: "jsonp",
       success: function(parsed_json) {
